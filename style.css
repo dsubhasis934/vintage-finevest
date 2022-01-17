@@ -1,0 +1,158 @@
+
+/*
+Theme Name: Vintage-Theme
+Author: admin
+
+Description: Vintage is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.4
+
+Text Domain: vintage_theme
+Tags: one-column, accessibility-ready, custom-colors, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, translation-ready
+
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-brandcolor{
+    background-color: rgb(9,49,74); 
+  }
+.hover\:bg-brandcolorhover:hover{
+    background-color: rgb(5, 34, 49); 
+  }
+  
+.bg-blue-950{
+    background-color: rgb(9,49,74); 
+  }
+
+  
+.counter-value:after {
+    content: "+";
+}
+.text-icon{
+color : #173b52;
+}
+
+/* Carousel Container*/
+.swiper-container {
+  width: 100%!important;
+  margin: 0%!important;
+}
+
+.flickity-viewport {
+  height: 500px !important;
+}
+
+.blog-post p{
+  margin-bottom:1em;
+  line-height:2em
+}
+
+.text-brandcolor {
+  --tw-text-opacity: 1;
+  color: rgba(9,49,74,var(--tw-text-opacity));
+}
+
+.hover\:text-brandcolorhover:hover{
+  --tw-text-opacity: 1;
+  color: rgba(5,34,49,var(--tw-text-opacity));
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: rgb(9, 49, 74) solid 1px;
+  background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: rgb(9, 49, 74);
+}
+
+.page-numbers {
+      display: inline-block;
+      padding-left:1rem;
+      padding-right:1rem;
+      border: 1px solid #ddd;
+      line-height: 1.25rem;
+      text-decoration: none;
+      margin:0px -3px;
+      border-radius: 2px;
+      font-weight: 600;
+      border-width:1px;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+  }
+  .page-numbers.current
+   {
+      border-color: rgba(79,70,229);
+      color: rgba(79,70,229);
+      background-color: rgba(238,242,255);
+      margin:0px;
+  }
+  .postauthor-wrap {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding: 30px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
+    box-shadow: 0 3px 5px 0 rgba(0,1,1,.1);
+    }
+    .postauthor-wrap .fn {
+    font-size: 24px;
+    }
+    .postauthor img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding:5px 15px;
+    }
+    .author-aka {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: normal;
+    color: #5e5e5e;
+    }
+    .author-aka-name {
+    font-size: 17px;
+    text-transform: lowercase;
+    font-weight: normal;
+    color: #111111;
+    }
+    .post-author-links {
+    display: inline-block;
+    }
+    a.author-link {
+    background: #cc0000;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+    line-height: 1;
+    height: 30px;
+    font-size: 12px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin: 0 7px 0 0;
+    float: left;
+    }
+    a.author-link.f {
+    background: #3b5998;
+    }
+    a.author-link.t {
+    background: #2DA8D2;
+    }
+    a.author-link.w {
+    background: #e64522;
+    }
+    .desc{
+      float:right;
+    }
+    
